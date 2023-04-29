@@ -1,0 +1,1 @@
+/home/obrien/.local/share/omf/themes/rider/fish_prompt.fish
