@@ -197,7 +197,8 @@ bar {
   floating_maximum_size -1 x -1
 
 
-## Solarized colorshema
+
+# Solarized colorshema
 # class                 border  backgr. text    indicator
 client.focused          #b58900 #b58900 #fdf6e3 #cb4b16
 client.focused_inactive #073642 #073642 #fdf6e3 #073642
@@ -223,7 +224,8 @@ client.unfocused        #073642 #073642 #fdf6e3 #073642
 
 
 # SET THE WALLPAPER
-  exec always nitrogen --restore
+# exec always nitrogen --restore
+  exec_always --no-startup-id /usr/bin/feh --randomize --bg-fill ~/Pictures/wallpapers
 
 
 
