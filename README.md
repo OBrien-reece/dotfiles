@@ -24,4 +24,5 @@
 22. Install [picom](https://github.com/yshui/picom) using the distros package manager
 23. Copy the picom.conf file in my repo to .config folder
 24. Forgot the wallpaper. I use [feh](https://feh.finalrewind.org/). Install it via the package manager. (Nitrogen)[https://wiki.archlinux.org/title/nitrogen] is also an option. But you'd need to edit my i3 config file (last lines at the bottom). Create a folder named wallpapers in Pictures, download a couple of (wallpapers)[https://gitlab.com/thelinuxcast/wallpapers], move them to that folder then press ctrl+shift+r to reload i3.
-25. Now to edit polybar and add icons. Use (this)[https://www.youtube.com/watch?v=nVSUiRUgspQ] video to download the fonts you want
+25. Now to edit polybar and add icons. Use (this)[https://www.youtube.com/watch?v=nVSUiRUgspQ] video to download the fonts you want. For now, let's use [mine](https://gitlab.com/obrienreece/linux/-/blob/main/fontello-2c4fa7f1.zip). 
+26. For some reason if the font icons will be messed up, just look through the polybar config files and make the necessary changes
