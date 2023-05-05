@@ -1,3 +1,7 @@
+# Screenshot
+![github](https://user-images.githubusercontent.com/83289969/236567282-f021630b-cab1-42ad-8de3-df05c97f0a36.png)
+
+
 # Installation
 1. Install [kitty](https://github.com/kovidgoyal/kitty)
 2. Install [13](https://i3wm.org/) then logout. On the login screen before inputing the password, choose i3 on the cogwheel on the bottom right. Once in i3, press [mod+enter](https://i3wm.org/docs/userguide.html#_opening_terminals_and_moving_around) to open gnome terminal. 
