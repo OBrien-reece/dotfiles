@@ -1,6 +1,6 @@
 # Installation
 1. Install [kitty](https://github.com/kovidgoyal/kitty)
-2. Install [13](https://i3wm.org/) then logout. On the login screen before inputing the password, choose i3 on the cogwheel on the bottom right. Once in i3, press [ctrl+enter](https://i3wm.org/docs/userguide.html#_opening_terminals_and_moving_around) to open gnome terminal. 
+2. Install [13](https://i3wm.org/) then logout. On the login screen before inputing the password, choose i3 on the cogwheel on the bottom right. Once in i3, press [mod+enter](https://i3wm.org/docs/userguide.html#_opening_terminals_and_moving_around) to open gnome terminal. 
 3. Install [rofi](https://github.com/davatorium/rofi) and [dmenu](https://wiki.archlinux.org/title/dmenu) (Arch does not install i3 with dmenu, thats why you have to manually do it). Afterwards press ctrl+d to open dmenu. Type firefox to launch firefox
 4. Clone [my](https://github.com/OBrien-reece/linux.git) GitHub repo 
 5. Download and configure the distro to use [fish shell](https://fishshell.com/)
@@ -22,6 +22,6 @@
 21. Install [Neovim](https://neovim.io/) then press [ctrl+shift+f5](https://sw.kovidgoyal.net/kitty/). If you see no changes. Open and close kitty. If still nothing, revise step 21 and 22 as they are the most likely culprits.
 22. Install [picom](https://github.com/yshui/picom) using the distros package manager
 23. Copy the `picom.conf` file in my repo to .config folder
-24. Forgot the wallpaper. I use [feh](https://feh.finalrewind.org/). Install it via the package manager. (Nitrogen)[https://wiki.archlinux.org/title/nitrogen] is also another option. But you'd need to make some edits to my i3 config file (last lines at the bottom). Create a folder named wallpapers in Pictures, download a couple of (wallpapers)[https://gitlab.com/thelinuxcast/wallpapers], move them to that folder then press [mod+shift+r](https://i3wm.org/docs/userguide.html#_reloading_restarting_exiting) to reload i3.
-25. Now to edit polybar and add icons. Use (this)[https://www.youtube.com/watch?v=nVSUiRUgspQ] video as a tutorial to download the fonts you want. For now, let's use [my] font icons (https://gitlab.com/obrienreece/linux/-/blob/main/fontello-2c4fa7f1.zip). 
+24. Forgot the wallpaper. I use [feh](https://feh.finalrewind.org/). Install it via the package manager. [Nitrogen](https://wiki.archlinux.org/title/nitrogen) is also another option. But you'd need to make some edits to my i3 config file (last lines at the bottom). Create a folder named wallpapers in Pictures, download a couple of [wallpapers](https://gitlab.com/thelinuxcast/wallpapers), move them to that folder then press [mod+shift+r](https://i3wm.org/docs/userguide.html#_reloading_restarting_exiting) to reload i3.
+25. Now to edit polybar and add icons. Use [this](https://www.youtube.com/watch?v=nVSUiRUgspQ) video as a tutorial to download the fonts you want. For now, let's use [my](https://gitlab.com/obrienreece/linux/-/blob/main/fontello-2c4fa7f1.zip) font icons. 
 26. For some reason if the font icons will be messed up, just look through the polybar config files and make the necessary changes. 
