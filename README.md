@@ -22,3 +22,6 @@
 20. Choose the kitty theme you want and create a symlink to it. Since I went with gruvbox-dark-hard, here is the [symlink command](ln -s ./kitty-themes/kitty-gruvbox-theme/gruvbox_dark_hard.conf ~/.config/kitty/gruvbox_dark_hard.conf)
 21. Install Neovim then press ctrl+shift+f5. If you see no changes. Open and close kitty. If still nothing, revise step 21 and 22 as they are the most likely culprits.
 22. Install [picom](https://github.com/yshui/picom) using the distros package manager
+23. Copy the picom.conf file in my repo to .config folder
+24. Forgot the wallpaper. I use [feh](https://feh.finalrewind.org/). Install it via the package manager. (Nitrogen)[https://wiki.archlinux.org/title/nitrogen] is also an option. But you'd need to edit my i3 config file (last lines at the bottom). Create a folder named wallpapers in Pictures, download a couple of (wallpapers)[https://gitlab.com/thelinuxcast/wallpapers], move them to that folder then press ctrl+shift+r to reload i3.
+25. Now to edit polybar and add icons. Use (this)[https://www.youtube.com/watch?v=nVSUiRUgspQ] video to download the fonts you want
