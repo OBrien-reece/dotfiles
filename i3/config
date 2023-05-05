@@ -220,6 +220,7 @@ client.background       #ffffff
   for_window [class="Nitrogen"] floating enable sticky enable border normal
   for_window [class="SimpleScreenRecorder"] floating enable sticky enable border normal
   for_window [class="org.gnome.Nautilus"] floating enable sticky enable border normal
+  for_window [class="Blueman-manager"] floating enable sticky enable border normal
 
 # GAPS BETWEEN WINDOWS
   gaps inner 5
@@ -243,6 +244,10 @@ client.background       #ffffff
 
 # POLYBAR
   exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# SCREENSHOT
+  bindsym Print       exec flameshot full
+  bindsym Shift+Print exec flameshot gui
 
 # SET THE WALLPAPER
 # exec always nitrogen --restore

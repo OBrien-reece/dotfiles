@@ -6,6 +6,9 @@ end
 #####ALIASES##############################################################################################
 alias vim='nvim'
 alias l='ll'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gcl='git clone'
 
 # SET THE DEFAULT EDITOR FOR RANGER TO BE VIM
 set -x EDITOR nvim
