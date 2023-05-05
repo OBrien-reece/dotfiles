@@ -134,10 +134,6 @@ abbr .... "cd ../../.."
              jo (pwd) $argv
      end
  end
-###END OF AUTOJUMP####################################################################################################################################################
-
-##SHOW RANDOM ASCII ART WHENEVER THE TERMINAL IS OPENED##
-#./fm6000 -o Pop!_OS -c random -v -r 
 
 ##LINK TO STARSHIP##
 starship init fish | source
