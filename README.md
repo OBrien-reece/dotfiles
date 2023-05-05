@@ -1,8 +1,8 @@
 # Installation
-1. Install kitty
-2. Install 13 then logout. On the login screen before inputing the password, choose i3 on the cogwheel on the bottom right. Once in i3, press ctrl+enter to open gnome terminal. 
+1. Install [kitty](https://github.com/kovidgoyal/kitty)
+2. Install [13](https://i3wm.org/) then logout. On the login screen before inputing the password, choose i3 on the cogwheel on the bottom right. Once in i3, press [ctrl+enter](https://i3wm.org/docs/userguide.html#_opening_terminals_and_moving_around) to open gnome terminal. 
 3. Install dmenu (Arch does not install i3 with dmenu, thats why you have to manually do it). Afterwards press ctrl+d to open dmenu. Type firefox to launch firefox
-4. Clone the GitHub repo https://github.com/OBrien-reece/linux.git
+4. Clone [this](https://github.com/OBrien-reece/linux.git) GitHub repo 
 5. Download and configure the distro to use fish shell
 6. Install autojump using the package manager (Download the zip if cloning takes too long). 
 7. Copy the fish config from my repo and replace the fish config in .config
