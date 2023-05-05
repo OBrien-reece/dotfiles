@@ -1,4 +1,5 @@
-# Screenshot
+<h1 align="center">My i3 Window manager Setup [Arch Linux Edition]</h1>
+
 ![github](https://user-images.githubusercontent.com/83289969/236567282-f021630b-cab1-42ad-8de3-df05c97f0a36.png)
 
 
