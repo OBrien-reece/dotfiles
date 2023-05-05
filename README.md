@@ -30,5 +30,5 @@
 24. Forgot the wallpaper. I use [feh](https://feh.finalrewind.org/). Install it via the package manager. [Nitrogen](https://wiki.archlinux.org/title/nitrogen) is also another option. But you'd need to make some edits to my i3 config file (last lines at the bottom). Create a folder named wallpapers in Pictures, download a couple of [wallpapers](https://gitlab.com/thelinuxcast/wallpapers), move them to that folder then press [mod+shift+r](https://i3wm.org/docs/userguide.html#_reloading_restarting_exiting) to reload i3.
 25. Now to edit polybar and add icons. Use [this](https://www.youtube.com/watch?v=nVSUiRUgspQ) video as a tutorial to download the fonts you want. For now, let's use [my](https://gitlab.com/obrienreece/linux/-/blob/main/fontello-2c4fa7f1.zip) font icons. 
 26. For some reason if the font icons will be messed up, just look through the polybar config files and make the necessary changes. 
-Install clipit (clipboard manager: sudo pacman -S clipit) then open rofi and run it for it to appear on polybar
-Install [blueman](https://github.com/blueman-project/blueman) and run it for it to appear on Polybar
+27. Install clipit (clipboard manager: sudo pacman -S clipit) then open rofi and run it for it to appear on polybar
+28. Install [blueman](https://github.com/blueman-project/blueman) and run it for it to appear on Polybar
