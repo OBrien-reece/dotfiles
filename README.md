@@ -26,4 +26,4 @@
 25. Now to edit polybar and add icons. Use [this](https://www.youtube.com/watch?v=nVSUiRUgspQ) video as a tutorial to download the fonts you want. For now, let's use [my](https://gitlab.com/obrienreece/linux/-/blob/main/fontello-2c4fa7f1.zip) font icons. 
 26. For some reason if the font icons will be messed up, just look through the polybar config files and make the necessary changes. 
 Install clipit (clipboard manager: sudo pacman -S clipit) then open rofi and run it for it to appear on polybar
-Install (blueman)[https://github.com/blueman-project/blueman] and run it for it to appear on Polybar
+Install [blueman](https://github.com/blueman-project/blueman) and run it for it to appear on Polybar
