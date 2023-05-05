@@ -1,6 +1,6 @@
 # Installation
 1. Install [kitty](https://github.com/kovidgoyal/kitty)
-2. Install [13](https://i3wm.org/) then logout. On the login screen before inputing the password, choose i3 on the cogwheel on the bottom right. Once in i3, press [ctrl+enter](https://i3wm.org/docs/userguide.html#_opening_terminals_and_moving_around) to open gnome terminal. 
+2. Install [13](https://i3wm.org/) then logout. On the login screen before inputing the password, choose i3 on the cogwheel on the bottom right. Once in i3, press [mod+enter](https://i3wm.org/docs/userguide.html#_opening_terminals_and_moving_around) to open gnome terminal. 
 3. Install [rofi](https://github.com/davatorium/rofi) and [dmenu](https://wiki.archlinux.org/title/dmenu) (Arch does not install i3 with dmenu, thats why you have to manually do it). Afterwards press ctrl+d to open dmenu. Type firefox to launch firefox
 4. Clone [my](https://github.com/OBrien-reece/linux.git) GitHub repo 
 5. Download and configure the distro to use [fish shell](https://fishshell.com/)
