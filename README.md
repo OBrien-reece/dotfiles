@@ -32,3 +32,4 @@
 26. For some reason if the font icons will be messed up, just look through the polybar config files and make the necessary changes. 
 27. Install clipit (clipboard manager: sudo pacman -S clipit) then open rofi and run it for it to appear on polybar
 28. Install [blueman](https://github.com/blueman-project/blueman) and run it for it to appear on Polybar
+29. Install [Flameshot](https://github.com/flameshot-org/flameshot) if you want to take screenshots
