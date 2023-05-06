@@ -242,16 +242,19 @@ client.background       #ffffff
 # START PICOM AUTOMATICALLY
   exec_always --no-startup-id picom -b --config ~/.config/picom.conf
 
+# START BLUETOOTH AUTOMATICALLY
+  exec blueman-adapters
+
 # POLYBAR
   exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # SCREENSHOT
   bindsym Print       exec flameshot full
-  bindsym Shift+Print exec flameshot gui
+  bindsym $mod+Print exec flameshot gui
 
 # SET THE WALLPAPER
 # exec always nitrogen --restore
-  exec_always --no-startup-id /usr/bin/feh --randomize --bg-fill ~/Pictures/wallpapers
+ exec_always --no-startup-id /usr/bin/feh --randomize --bg-fill ~/Pictures/wallpapers
 
 
 
