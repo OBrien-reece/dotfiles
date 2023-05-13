@@ -1,0 +1,17 @@
+# URL VIEW
+bind-key U show-urls
+external-url-viewer "urlview"
+
+# Vim-like movement keys
+bind-key j down
+bind-key k up
+bind-key G end 
+bind-key g home 
+
+# Newsboat colors
+color listnormal cyan default
+color listfocus black yellow standout bold
+color listnormal_unread blue default
+color listfocus_unread yellow default bold
+color info green black 
+color article cyan default
