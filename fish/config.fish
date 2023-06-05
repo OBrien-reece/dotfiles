@@ -15,7 +15,6 @@ alias a='aura -A'
 alias subs='python3 submpv.lua'
 alias selena="m 'https://www.youtube.com/watch?v=ij_0p_6qTss&list=RDij_0p_6qTss&start_radio=1'"
 alias mnv='m --no-video'
-alias t='trash'
 alias find='grep -rnw'
 
 # SET THE DEFAULT EDITOR FOR RANGER TO BE VIM
@@ -24,10 +23,14 @@ set -x EDITOR nvim
 # EXPORT
 set fish_greeting # Supresses fish's intro message
 
-# cd for parent directories
+# ABBR 
 abbr .. "cd .."
 abbr .... "cd ../.."
 abbr ...... "cd ../../.."
+abbr tr 'trash-restore'
+abbr t 'trash'
+abbr tl 'trash-list'
+
 
 # SCRIPT TO RUN AUTOJUMP
 set -gx AUTOJUMP_SOURCED 1
