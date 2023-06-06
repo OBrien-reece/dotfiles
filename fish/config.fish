@@ -30,6 +30,7 @@ abbr ...... "cd ../../.."
 abbr tr 'trash-restore'
 abbr t 'trash'
 abbr tl 'trash-list'
+abbr sed 'sed -n'
 
 
 # SCRIPT TO RUN AUTOJUMP
