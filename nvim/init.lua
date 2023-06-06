@@ -1,0 +1,10 @@
+require('plugins')
+require('options')
+require('n-vimtree-cfg')
+require('lualine-config')
+require('bufferline-config')
+require('autopairs-cfg')
+require('keybindings')
+require('treesitter-cfg')
+vim.cmd('colorscheme gruvbox')
+
