@@ -1,8 +1,0 @@
-set statusbar-h-padding 0
-set statusbar-v-padding 0
-set page-padding 3
-
-# Enable dark mode
-set recolor true
-set recolor-reverse-video true
-
