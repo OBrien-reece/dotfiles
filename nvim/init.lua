@@ -6,5 +6,7 @@ require('bufferline-config')
 require('autopairs-cfg')
 require('keybindings')
 require('treesitter-cfg')
+require('whichkey-config')
+require('telescope-config')
 vim.cmd('colorscheme gruvbox')
 

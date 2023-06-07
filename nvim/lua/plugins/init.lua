@@ -20,7 +20,13 @@ return require('packer').startup(function(use)
   end 
   }
 
-  use 'windwp/nvim-ts-autotag'
-  use 'p00f/nvim-ts-rainbow'
-  use 'windwp/nvim-autopairs'
+  use {'windwp/nvim-ts-autotag'}
+  use {'p00f/nvim-ts-rainbow'}
+  use {'windwp/nvim-autopairs'}
+  use {'folke/which-key.nvim'}
+
+  use {
+  'nvim-telescope/telescope.nvim', tag = '0.1.1',
+  requires = { {'nvim-lua/plenary.nvim'} }
+}
 end)
