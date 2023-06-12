@@ -4,7 +4,9 @@ end
 
 # ALIASES
 alias vim='nvim'
-alias l='ll -a'
+alias ls='exa --icons --color always'
+alias ll='exa --icons --color always -l'
+alias lsa='exa --icons --color always -a'
 alias ga='git add .'
 alias gc='git commit -m'
 alias gcl='git clone'
@@ -31,6 +33,7 @@ abbr tr 'trash-restore'
 abbr t 'trash'
 abbr tl 'trash-list'
 abbr sed 'sed -n'
+abbr untar 'tar -xvzf '
 
 
 # SCRIPT TO RUN AUTOJUMP
@@ -153,4 +156,4 @@ end
 starship init fish | source
 
 # ACTIVATE CONDA FOR FISH SHELL
-source ~/anaconda3/etc/fish/conf.d/conda.fish
+# source ~/anaconda3/etc/fish/conf.d/conda.fish
