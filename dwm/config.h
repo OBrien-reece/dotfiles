@@ -40,6 +40,7 @@ static const Rule rules[] = {
 	{ "kitty",                    NULL,       NULL,       0,            1,                1,              0,            -1 },
 	{ "org.gnome.Nautilus",       NULL,       NULL,       0,            1,                0,              0,            -1 },
 	{ "Motrix",                   "motrix",   NULL,       0,            1,                0,              0,            -1 },
+	{ "Nitrogen",                 NULL,       NULL,       0,            1,                0,              0,            -1 },
 };
 
 /* layout(s) */

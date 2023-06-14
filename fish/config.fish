@@ -34,6 +34,9 @@ abbr t 'trash'
 abbr tl 'trash-list'
 abbr sed 'sed -n'
 abbr untar 'tar -xvzf '
+abbr vq 'vnstat -q'
+abbr vm 'vnstat -m'
+abbr vl 'vnstat -l'
 
 
 # SCRIPT TO RUN AUTOJUMP
