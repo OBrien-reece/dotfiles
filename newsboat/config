@@ -2,6 +2,8 @@ auto-reload yes
 delete-read-articles-on-quit yes
 display-article-progress yes
 
+browser "brave %u"
+
 bind-key j down
 bind-key k up
 bind-key J next-feed articlelist

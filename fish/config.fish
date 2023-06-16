@@ -37,6 +37,9 @@ abbr untar 'tar -xvzf '
 abbr vq 'vnstat -q'
 abbr vm 'vnstat -m'
 abbr vl 'vnstat -l'
+abbr vh 'vnstat -h'
+abbr vd 'vnstat -d'
+abbr vt 'vnstat -t'
 
 
 # SCRIPT TO RUN AUTOJUMP
@@ -160,3 +163,6 @@ starship init fish | source
 
 # ACTIVATE CONDA FOR FISH SHELL
 # source ~/anaconda3/etc/fish/conf.d/conda.fish
+
+set -x PATH $HOME/.local/bin $PATH
+
