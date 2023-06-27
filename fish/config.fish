@@ -10,12 +10,9 @@ alias lsa='exa --icons --color always -a'
 alias ga='git add .'
 alias gc='git commit -m'
 alias gcl='git clone'
-alias s='sudo pacman -S'
-alias sr='sudo pacman -Rns'
 alias m='mpv'
 alias a='aura -A'
 alias subs='python3 submpv.lua'
-alias selena="m 'https://www.youtube.com/watch?v=ij_0p_6qTss&list=RDij_0p_6qTss&start_radio=1'"
 alias mnv='m --no-video'
 alias find='grep -rnw'
 
@@ -40,6 +37,8 @@ abbr vl 'vnstat -l'
 abbr vh 'vnstat -h'
 abbr vd 'vnstat -d'
 abbr vt 'vnstat -t'
+abbr s 'sudo pacman -S'
+abbr sr 'sudo pacman -Rns'
 
 
 # SCRIPT TO RUN AUTOJUMP

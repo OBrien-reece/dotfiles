@@ -1,6 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
-#include "/home/obrien/.config/dwm/themes/gruv.h"
+#include "/home/obrien/.config/dwm/themes/moonfly.h"
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
@@ -26,18 +26,21 @@ static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%"
 static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute", "0", "toggle", NULL };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { " ", "", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class                      instance    title       tags mask     isfloating        isterminal      noswallow     monitor */
-	{ "kitty",                    NULL,       NULL,       0,            1,                1,              0,            -1 },
-	{ "org.gnome.Nautilus",       NULL,       NULL,       0,            1,                0,              0,            -1 },
-	{ "Motrix",                   "motrix",   NULL,       0,            1,                0,              0,            -1 },
-	{ "Nitrogen",                 NULL,       NULL,       0,            1,                0,              0,            -1 },
+	/* class                      instance                      title                     tags mask     isfloating        isterminal      noswallow     monitor */
+	{ "kitty",                    NULL,                         NULL,                     0,            1,                1,              0,            -1 },
+	{ "org.gnome.Nautilus",       NULL,                         NULL,                     0,            1,                0,              0,            -1 },
+	{ "Motrix",                   "motrix",                     NULL,                     1 << 1 ,      1,                0,              0,            -1 },
+	{ "Nitrogen",                 NULL,                         NULL,                     1 << 1,       1,                0,              0,            -1 },
+	{ NULL,                       NULL,                         "Network Connections",    0,            1,                0,              0,            -1 },
+	{ "Windscribe2",              "windscribe",                 NULL,                     0,            1,                0,              0,            -1 },
+	{ NULL,     "simplescreenrecorder",       NULL,                     0,            1,                0,              0,            -1 },
 };
 
 /* layout(s) */
