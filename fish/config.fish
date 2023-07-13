@@ -42,6 +42,7 @@ abbr gcl 'git clone'
 abbr gp 'git push'
 abbr gb 'git branch'
 abbr bm 'blueman-manager'
+abbr pa 'php artisan'
 
 
 # SCRIPT TO RUN AUTOJUMP
